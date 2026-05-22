@@ -9,6 +9,16 @@
 <body>
     <h1>Hello All..</h1>
     <h2>It is working..</h2>
-    <div class="circle"></div>
+    <div class="circle" onclick="pressme()"></div>
+
+    <script>
+       function pressme(){
+        alert("press me")
+        let a = document.querySelector('.circle');
+        a.style.borderRadius = "50%";
+        
+       }
+        
+    </script>
 </body>
 </html>
